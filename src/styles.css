@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* @import "~bootstrap/dist/css/bootstrap.css";
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import './assets/fonts/merriweather.css';
+@import './assets/fonts/circular-std-book.css';
+@import './assets/fonts/raleway.css';
+@import './assets/css/responsive.scss'; */
+
+
+@font-face {
+    font-family: CaveatRegular;
+    src: url('../src/fonts/Caveat-Regular.ttf');
+}
+
+
+@font-face{
+    font-family: PopinsRegular;
+    src: url('../src/fonts/Poppins-Regular.ttf');
+}
+
+@font-face{
+    font-family: PopinsSemiBold;
+    src: url('../src/fonts/Poppins-SemiBold.ttf')
+}
+
+@font-face{
+    font-family: InterRegular;
+    src: url('../src/fonts/Inter-Regular.ttf')
+}

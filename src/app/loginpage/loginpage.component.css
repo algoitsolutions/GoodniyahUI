@@ -1,0 +1,16 @@
+
+::placeholder{
+    color: black;
+}
+
+input{
+    padding-left: 5%;
+}
+
+.card-title{
+    text-align: center;
+    color: #F87F06;
+    margin-top: 20%;
+    font-family: 'CaveatRegular';
+    font-size: 30px;
+}

@@ -1,0 +1,643 @@
+.service-provide{
+  text-align: center;
+  color: white;
+  font-family: 'CaveatRegular';
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.recent{
+  text-align: center;
+  font-family: 'CaveatRegular';
+  font-size: 30px;
+  color: #F87F06;
+}
+
+.features{
+  text-align: center;
+  font-family: 'CaveatRegular';
+  font-size: 30px;
+  color: #011365;  
+  margin-bottom: 0px;
+}
+
+
+
+
+
+.recent-causes{
+  font-size: 45px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.recentrow{
+  display: flex;
+  justify-content: center;
+}
+
+.cardcause{
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #1D71B8;
+  border: none;
+  color: white;
+}
+
+.recentcauseimgrow{
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.imagerow{
+  margin: 0 auto;
+}
+
+.recentcauseimg{
+  width: 95px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+
+
+
+/* .frame-1,
+.frame-1 * {
+  box-sizing: border-box;
+} */
+.frame-1 {
+  background: #ffffff;
+  /* width: 1920px; */
+  width: 100%;
+  height: 8887px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-11 {
+  background: #fbf5e3;
+  width: 1920px;
+  height: 1366px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.path-829 {
+  position: absolute;
+  left: -227px;
+  top: 1950.94px;
+  transform: translate(227px, -1242.16px);
+  overflow: visible;
+}
+.path-137 {
+  opacity: 0;
+  position: absolute;
+  left: -357.96px;
+  top: 1573.44px;
+  overflow: visible;
+}
+.every-donation-counts-every-life-matters {
+  color: #000000;
+  text-align: left;
+  font: 400 90px/121% "Poppins", sans-serif;
+  position: absolute;
+  left: 234px;
+  top: 310px;
+}
+.home-about-us-search-contact-blog {
+  text-align: left;
+  font: 400 34px "Poppins", sans-serif;
+  position: absolute;
+  left: 508px;
+  top: 76px;
+}
+.home-about-us-search-contact-blog-span {
+  color: #1819fe;
+  font: 400 34px "Poppins", sans-serif;
+}
+.home-about-us-search-contact-blog-span2 {
+  color: #000000;
+  font: 400 34px "Poppins", sans-serif;
+}
+.it-involves-giving-money-goods-or-time-and-effort-to-those-who-need-it {
+  color: #000000;
+  text-align: left;
+  font: 400 45px/121% "Poppins", sans-serif;
+  position: absolute;
+  left: 234px;
+  top: 717px;
+}
+.image-1 {
+  width: 251px;
+  height: 123px;
+  position: absolute;
+  left: 131px;
+  top: 50px;
+}
+.rectangle-10 {
+  background: #1819ff;
+  border-radius: 9px;
+  width: 634px;
+  height: 100px;
+  position: absolute;
+  left: 234px;
+  top: 893px;
+}
+.make-a-contribution {
+  color: #ffffff;
+  text-align: left;
+  font: 400 45px/121% "Poppins", sans-serif;
+  position: absolute;
+  left: 323px;
+  top: 916px;
+}
+.our-features {
+  color: #000000;
+  text-align: left;
+  font: 400 25px/121% "Poppins", sans-serif;
+  text-decoration: underline;
+  position: absolute;
+  left: calc(50% - 144px);
+  /* top: 1411px; */
+  top: 100px;
+}
+.direct-help {
+  color: #000000;
+  text-align: left;
+  font: 400 25px/121% "Poppins", sans-serif;
+  position: absolute;
+  left: calc(50% - 597px);
+  top: 1790px;
+}
+.charities-bring-together-people-who-care-about-a-cause-so-that-they-can-make-a-difference {
+  color: #000000;
+  text-align: left;
+  font: 400 20px/121% "Poppins", sans-serif;
+  position: absolute;
+  left: calc(50% - 567px);
+  top: 1864px;
+}
+.people-who-care-about-a-cause-so-that-they-can-make-a-difference-it-is-that-you-care-about {
+  color: #000000;
+  text-align: left;
+  font: 400 20px/121% "Poppins", sans-serif;
+  position: absolute;
+  left: calc(50% - 9px);
+  top: 2238px;
+}
+.whatever-it-is-that-you-care-about-there-will-be-a-charity-working-on-it {
+  color: #000000;
+  text-align: right;
+  font: 400 20px/121% "Poppins", sans-serif;
+  position: absolute;
+  left: calc(50% - 790px);
+  top: 2620px;
+}
+.charities-help-in-lots-of-different-ways-but-the-main-ways-are-by-providing-direct-help {
+  color: #000000;
+  text-align: right;
+  font: 400 20px/121% "Poppins", sans-serif;
+  position: absolute;
+  left: calc(50% - 232px);
+  top: 2869px;
+}
+.giving-information {
+  color: #000000;
+  text-align: left;
+  font: 400 25px/121% "Poppins", sans-serif;
+  position: absolute;
+  left: calc(50% - 63px);
+  top: 2162px;
+}
+.raising-awareness {
+  color: #000000;
+  text-align: left;
+  font: 400 25px/121% "Poppins", sans-serif;
+  position: absolute;
+  left: calc(50% - 423px);
+  top: 2546px;
+}
+.relieving-poverty {
+  color: #000000;
+  text-align: left;
+  font: 400 25px/121% "Poppins", sans-serif;
+  position: absolute;
+  left: calc(50% - -162px);
+  top: 2795px;
+}
+.whatever-it-is-that-you-care-about-there-will-be-a-charity-working-on-it-charities-help-in-lots-of-different-ways {
+  color: #000000;
+  text-align: center;
+  font: 400 20px/121% "Poppins", sans-serif;
+  position: absolute;
+  left: calc(50% - 750px);
+  /* top: 1492px; */
+  top: 150px;
+  width: 1499px;
+}
+.vector-1 {
+  position: absolute;
+  left: calc(50% - 698.43px);
+  top: 1833px;
+  transform: translate(-1.5px, -0.05px);
+  overflow: visible;
+}
+.ellipse-500 {
+  background: #ffff01;
+  border-radius: 50%;
+  width: 106px;
+  height: 106px;
+  position: absolute;
+  left: 210px;
+  top: 1780px;
+}
+.ellipse-501 {
+  background: #ffff01;
+  border-radius: 50%;
+  width: 106px;
+  height: 106px;
+  position: absolute;
+  left: 748px;
+  top: 2163px;
+}
+.ellipse-502 {
+  background: #ffff01;
+  border-radius: 50%;
+  width: 106px;
+  height: 106px;
+  position: absolute;
+  left: 982px;
+  top: 2501px;
+}
+.ellipse-503 {
+  background: #ffff01;
+  border-radius: 50%;
+  width: 106px;
+  height: 106px;
+  position: absolute;
+  left: 1534px;
+  top: 2761px;
+}
+.helping-hand-1 {
+  width: 77px;
+  height: 77px;
+  position: absolute;
+  left: 630px;
+  top: 1774px;
+  overflow: hidden;
+}
+.group {
+  position: absolute;
+  inset: 0;
+}
+.group2 {
+  width: 76.21px;
+  height: 77px;
+  position: static;
+}
+.group3 {
+  position: absolute;
+  left: 0.4px;
+  top: 0px;
+  overflow: visible;
+}
+.public-1 {
+  width: 77px;
+  height: 77px;
+  position: absolute;
+  left: 1336px;
+  top: 2128px;
+  overflow: hidden;
+}
+.group4 {
+  position: absolute;
+  left: 0px;
+  top: -2.26px;
+  overflow: visible;
+}
+.awareness-1 {
+  position: absolute;
+  left: 432px;
+  top: 2501px;
+  overflow: visible;
+}
+.poverty-1 {
+  width: 111px;
+  height: 111px;
+  position: absolute;
+  left: 999px;
+  top: 2745px;
+  overflow: hidden;
+}
+.group5 {
+  position: absolute;
+  left: 0px;
+  top: 2.18px;
+  overflow: visible;
+}
+._1 {
+  color: #000000;
+  text-align: left;
+  font: 400 55px/121% "Poppins", sans-serif;
+  position: absolute;
+  left: calc(50% - 715px);
+  top: 1798px;
+}
+._2 {
+  color: #000000;
+  text-align: left;
+  font: 400 55px/121% "Poppins", sans-serif;
+  position: absolute;
+  left: calc(50% - 177px);
+  top: 2182px;
+}
+._3 {
+  color: #000000;
+  text-align: left;
+  font: 400 55px/121% "Poppins", sans-serif;
+  position: absolute;
+  left: calc(50% - -55px);
+  top: 2520px;
+}
+._4 {
+  color: #000000;
+  text-align: left;
+  font: 400 55px/121% "Poppins", sans-serif;
+  position: absolute;
+  left: calc(50% - -609px);
+  top: 2780px;
+}
+.vector-2 {
+  opacity: 0.10000000149011612;
+  position: absolute;
+  left: -458.21px;
+  top: 3156.13px;
+  transform: translate(458.21px, -174.97px);
+  overflow: visible;
+}
+.vector-3 {
+  opacity: 0.10000000149011612;
+  position: absolute;
+  left: -650px;
+  top: 5373.22px;
+  transform: translate(650px, -174.97px);
+  overflow: visible;
+}
+.rectangle-21 {
+  background: #1d71b8;
+  border-radius: 15px;
+  width: 212px;
+  height: 45px;
+  position: absolute;
+  left: 1377px;
+  top: 3509px;
+}
+.rectangle-19 {
+  background: #1d71b8;
+  border-radius: 15px;
+  width: 212px;
+  height: 45px;
+  position: absolute;
+  left: 849px;
+  top: 3509px;
+}
+.rectangle-17 {
+  background: #1d71b8;
+  border-radius: 15px;
+  width: 212px;
+  height: 45px;
+  position: absolute;
+  left: 342px;
+  top: 3509px;
+}
+.rectangle-16 {
+  background: #ffffff;
+  border-radius: 15px;
+  width: 324px;
+  height: 464px;
+  position: absolute;
+  left: 281px;
+  top: 3600px;
+  box-shadow: 4px 4px 2px -2px rgba(29, 113, 184, 1);
+}
+.rectangle-18 {
+  background: #ffffff;
+  border-radius: 15px;
+  width: 323px;
+  height: 464px;
+  position: absolute;
+  left: 799px;
+  top: 3600px;
+  box-shadow: 4px 4px 2px -2px rgba(29, 113, 184, 1);
+}
+.rectangle-20 {
+  background: #ffffff;
+  border-radius: 15px;
+  width: 324px;
+  height: 466px;
+  position: absolute;
+  left: 1316px;
+  top: 3598px;
+  box-shadow: 4px 4px 2px -2px rgba(29, 113, 184, 1);
+}
+.charity {
+  color: #ffffff;
+  text-align: center;
+  font: 400 28px/121% "Poppins", sans-serif;
+  position: absolute;
+  left: calc(50% - -472px);
+  top: 3514px;
+}
+.food {
+  color: #ffffff;
+  text-align: center;
+  font: 400 28px/121% "Poppins", sans-serif;
+  position: absolute;
+  left: calc(50% - 39px);
+  top: 3515px;
+}
+.water {
+  color: #ffffff;
+  text-align: left;
+  font: 400 28px/121% "Poppins", sans-serif;
+  position: absolute;
+  left: calc(50% - 562px);
+  top: 3514px;
+}
+.e-5-d-79809-effe-45-f-6-908-d-69-ba-3-b-5-ce-317-1-1 {
+  width: 1186px;
+  height: 1257px;
+  position: absolute;
+  left: 820px;
+  top: 101px;
+}
+.our-recent-causes {
+  color: #000000;
+  text-align: left;
+  font: 400 45px/121% "Poppins", sans-serif;
+  text-decoration: underline;
+  position: absolute;
+  left: calc(50% - 185px);
+  top: 3315px;
+}
+.icon-arrow-circle-right {
+  position: absolute;
+  left: 1445px;
+  top: 3947px;
+  overflow: visible;
+}
+.icon-arrow-circle-right2 {
+  position: absolute;
+  left: 932px;
+  top: 3947px;
+  overflow: visible;
+}
+.icon-arrow-circle-right3 {
+  position: absolute;
+  left: 410px;
+  top: 3947px;
+  overflow: visible;
+}
+.group-1 {
+  position: absolute;
+  inset: 0;
+}
+.vector81 {
+  position: absolute;
+  left: 1392.61px;
+  top: 3740px;
+  overflow: visible;
+}
+.vector82 {
+  position: absolute;
+  left: 1404.03px;
+  top: 3678.57px;
+  overflow: visible;
+}
+.vector83 {
+  position: absolute;
+  left: 1445.71px;
+  top: 3678.98px;
+  overflow: visible;
+}
+.vector84 {
+  position: absolute;
+  left: 1462.66px;
+  top: 3703.57px;
+  overflow: visible;
+}
+.vector85 {
+  position: absolute;
+  left: 1474.96px;
+  top: 3715.87px;
+  overflow: visible;
+}
+.vector86 {
+  position: absolute;
+  left: 1392.61px;
+  top: 3740.77px;
+  overflow: visible;
+}
+.vector87 {
+  position: absolute;
+  left: 1525.63px;
+  top: 3818.17px;
+  overflow: visible;
+}
+.vector88 {
+  position: absolute;
+  left: 1472.35px;
+  top: 3713.27px;
+  overflow: visible;
+}
+.vector89 {
+  position: absolute;
+  left: 1494.25px;
+  top: 3727.53px;
+  overflow: visible;
+}
+.vector90 {
+  position: absolute;
+  left: 1390px;
+  top: 3675.96px;
+  overflow: visible;
+}
+.vector91 {
+  position: absolute;
+  left: 1461.53px;
+  top: 3790.5px;
+  overflow: visible;
+}
+.vector92 {
+  position: absolute;
+  left: 1405.03px;
+  top: 3815.56px;
+  overflow: visible;
+}
+.vector93 {
+  position: absolute;
+  left: 1405.03px;
+  top: 3825.76px;
+  overflow: visible;
+}
+.group6 {
+  position: absolute;
+  left: 1419.06px;
+  top: 3689.25px;
+  overflow: visible;
+}
+.group-4 {
+  position: absolute;
+  inset: 0;
+}
+.group7 {
+  width: 159px;
+  height: 202.76px;
+  position: static;
+}
+.group8 {
+  width: 151.06px;
+  height: 194.82px;
+  position: static;
+}
+.group9 {
+  position: absolute;
+  left: 357.97px;
+  top: 3659.97px;
+  overflow: visible;
+}
+.group10 {
+  position: absolute;
+  left: 446.49px;
+  top: 3692.86px;
+  overflow: visible;
+}
+.group11 {
+  position: absolute;
+  left: 354px;
+  top: 3656px;
+  overflow: visible;
+}
+.group-3 {
+  position: absolute;
+  left: 862px;
+  top: 3673px;
+  overflow: visible;
+}
+
+
+
+
+.card-title-name{
+  text-align: center;
+}
+
+.card-text-designation{
+  text-align: center;
+}
+
+.volunteercard{
+  border-radius: 10px;
+}
