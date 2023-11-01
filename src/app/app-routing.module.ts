@@ -8,6 +8,7 @@ import { RegsubComponent } from './regsub/regsub.component';
 import { ContactComponent } from './contact/contact.component';
 import { DonorSignupComponent } from './donor-signup/donor-signup.component';
 import { StorydetailComponent } from './storydetail/storydetail.component';
+import { RegstoryComponent } from './regstory/regstory.component';
 
 const routes: Routes = [
   {
@@ -41,6 +42,10 @@ const routes: Routes = [
   {
     path:'storydetail',
     component:StorydetailComponent
+  },
+  {
+    path:'regstory',
+    component:RegstoryComponent
   }
 ];
 

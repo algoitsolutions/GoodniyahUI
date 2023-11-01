@@ -12,6 +12,7 @@ import { RegsubComponent } from './regsub/regsub.component';
 import { ContactComponent } from './contact/contact.component';
 import { DonorSignupComponent } from './donor-signup/donor-signup.component';
 import { StorydetailComponent } from './storydetail/storydetail.component';
+import { RegstoryComponent } from './regstory/regstory.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { StorydetailComponent } from './storydetail/storydetail.component';
     RegsubComponent,
     ContactComponent,
     DonorSignupComponent,
-    StorydetailComponent
+    StorydetailComponent,
+    RegstoryComponent
   ],
   imports: [
     BrowserModule,
