@@ -1,45 +1,75 @@
 <div style="overflow: hidden;">
    
    
-    <div class="row" style=" height: 80vh; background-image: url(../../assets/images/innerpage.png);border: 1px solid red;">
+    <div class="row" style=" height: 150vh; background-image: url(../../assets/images/innerpage.png);">
 
-        <div class="col-md-6">
-            <img src="../../assets/images/logo.png" style="width: 150px;">
-        </div>
-        <div class="col-md-6"></div>
+      <div  style="display: flex;margin-top: 1%;height: 100px;">
+            <div class="col-md-6">
+                <img src="../../assets/images/logo.png" style="width: 150px;margin-left: 2%;">
+            </div>
+            <div class="col-md-6" style="display: flex;justify-content: end;">
+                <button style="background-color: #063F83;border: none;border-radius: 50px;color: white;width: 100px;padding: 1%;height: 40px;">Login</button>&nbsp;&nbsp;
+                <button style="border: none;width: 100px;padding: 1%;border-radius: 50px;background-color: #FFB200;color: #063F83;height: 40px;">Signup</button>
+            </div>
+       </div>
 
-        <div class="col-md-6">
-            <p style="color: #011986;">Happening<br>near you</p>
-            <p>Fundraisers  happening through community</p>
-            <button style="border: none;border-radius: 50px;width: 30%;background-color: #FFB200;padding: 1%;box-shadow: 0px 4px 0px #011986">Discover</button>
+
+
+        <div style="margin-top: -200px;height: 300px;">
+              <div class="col-md-6" style="margin-left: 5%;">
+                <p style="color: #011986;font-weight: bold;font-size: 50px;">Happening<br>near you</p>
+                <p>Fundraisers  happening through community</p>
+                <button style="border: none;border-radius: 50px;width: 30%;background-color: #FFB200;padding: 1%;box-shadow: 0px 4px 0px #011986">Discover</button>
+              </div>
+              <div class="col-md-6"></div>
         </div>
-        <div class="col-md-6"></div>
+
+       
+
+
+        <div style="margin-top: -200px;">
+          <div class="col-md-12" >
+            <p style="color: white;font-family: CaveatRegular;text-align: center;font-size: 40px;">Recent</p>
+            <img src="../../assets/images/whiteline.png" style="display: flex;margin: 0 auto;  width: 150px;">
+          </div>
+        </div>
 
     </div>
 
 
 
 
-    <div class="row"  style="margin-bottom: 5%;">
+    <div class="row"  style="margin-bottom: 5%;margin-top: -20%;">
 <!--  -->
         <div class="col-md-4"  >
             <div class="card" style=" background-color: #EDF5FC; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 80%;margin: 0 auto;padding: 0px !important;margin-top: 10%;border-radius: 10px;">
-                <img  src="../../assets/images/serachpageimg.png" style="padding: 2%;" >
+                <img  src="../../assets/images/serachpageimg.png" style="padding-left: 2%;padding-right: 2%;padding-top: 2%;" >
                 
-                <div style="background-color: #063F83;">
+                <div style="background-color: #063F83;    margin-left: 2%;margin-right: 2%;">
 
                   <div style="display: flex;justify-content: space-between;padding-top: 3%;">
 
                     <div style="    height: 30px; background-color: white;border-radius: 0px 50px 50px 0px;width: 100px;"><p >Education</p></div>
 
-                    <span style="width: 100px;display: flex;justify-content: end;margin-right: 2%;">
-                      <img src="../../assets/images/location.png" style="    height: 20px; margin-top: 2%;">
+                    <span style="width: 100px;display: flex;justify-content: end;margin-right: 4%;">
+                      <img src="../../assets/images/location.png" style=" height: 20px; margin-top: 2%;">
                       <p style="color: white;">Japan</p>
                     </span>
-
                   </div>
 
-                    <input type="range" id="volume" name="volume" min="0" max="11" />
+                   
+                 
+                    <input type="range" min="0" max="50" value="0" id="range2" class="range-input" style="width: 95%;margin-left: 2%;margin-right: 2%;"/> 
+
+                    <div class="row">
+                      <div class="col-md-6">
+                        <p style="color: white;text-align: center;">$6,373</p>
+                      </div>
+                      <div class="col-md-6">
+                       <p style="color: white;text-align: center;"> $8,000 Goal</p>
+                      </div>
+                    </div>
+                   
 
                 </div>
                 
@@ -78,12 +108,12 @@
 
 
                    <div class="row" style="display: flex;justify-content: center;margin-top: 2%;">
-                    <img src="../../assets/images/twitter.png" style="width: 55px;height: 30px;">
-                    <img src="../../assets/images/twitter.png" style="width: 55px;height: 30px;">
-                    <img src="../../assets/images/twitter.png" style="width: 55px;height: 30px;">
+                    <img src="../../assets/images/instagram.png" style="width: 55px;height: 30px;">
+                    <img src="../../assets/images/facebook.png" style="width: 55px;height: 30px;">
+                    <img src="../../assets/images/youtube.png" style="width: 55px;height: 30px;">
                     <img src="../../assets/images/twitter.png" style="width: 55px;height: 30px;">
                     <img src="../../assets/images/whatsapp.png" style="width: 55px;height: 30px;">
-                   </div>
+                    </div>
                    
                 </div>
               </div>
@@ -91,97 +121,161 @@
     
         <!--  -->
 
-        <div class="col-md-4" >
-                <div class="card" style=" background-color: #EDF5FC; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 80%;margin: 0 auto;padding: 0px !important;margin-top: 10%;border-radius: 10px;">
-                    <img  src="../../assets/images/serachpageimg.png" style="padding: 2%;" >
-                    <div class="card-body">
-                     
-                        
-                                <h4 style="text-align: center;">The joy and satisfaction of
-                                    helping a child in need</h4>
+        <div class="col-md-4"  >
+          <div class="card" style=" background-color: #EDF5FC; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 80%;margin: 0 auto;padding: 0px !important;margin-top: 10%;border-radius: 10px;">
+              <img  src="../../assets/images/serachpageimg.png" style="padding-left: 2%;padding-right: 2%;padding-top: 2%;" >
+              
+              <div style="background-color: #063F83;    margin-left: 2%;margin-right: 2%;">
 
+                <div style="display: flex;justify-content: space-between;padding-top: 3%;">
 
-                                <a style="color: black;display: flex;justify-content: center;text-decoration: underline;" class="mt-3">Read More</a>
+                  <div style="    height: 30px; background-color: white;border-radius: 0px 50px 50px 0px;width: 100px;"><p >Education</p></div>
 
-                                <div style="display: flex;justify-content: center;margin-top: 10%;">
-                                  <button style="background-color: #FFB200;border-radius: 50px;border: none;padding: 3%;width: 80%;">Make a donation  <img src="../../assets/images/arrow_right.png" style="width: 30px;float: right;"></button>
-                                 
-                                </div>
+                  <span style="width: 100px;display: flex;justify-content: end;margin-right: 4%;">
+                    <img src="../../assets/images/location.png" style=" height: 20px; margin-top: 2%;">
+                    <p style="color: white;">Japan</p>
+                  </span>
+                </div>
 
+                 
+               
+                  <input type="range" min="0" max="50" value="0" id="range2" class="range-input" style="width: 95%;margin-left: 2%;margin-right: 2%;"/> 
 
-                               <div class="row">
-
-                                <div class="col-md-6" style="display: flex;padding: 0px;margin-top: 10%;justify-content: center;">
-                                  <img src="../../assets/images/clock.png" style="width: 20px;height: 20px;">&nbsp;
-                                  <p style="font-size: 12px;">2 months left</p>
-                                </div>
-
-                                <div class="col-md-6" style="display: flex;padding: 0px;margin-top: 10%;justify-content: center;">
-                                  <img src="../../assets/images/support.png" style="width: 20px;height: 20px;">&nbsp;
-                                  <p style="font-size: 12px;">25 Supporters</p>
-                                </div>
-
-                               </div>
-
-
-
-                               <div class="row" style="display: flex;justify-content: center;margin-top: 2%;">
-                                <img src="../../assets/images/twitter.png" style="width: 55px;height: 30px;">
-                                <img src="../../assets/images/twitter.png" style="width: 55px;height: 30px;">
-                                <img src="../../assets/images/twitter.png" style="width: 55px;height: 30px;">
-                                <img src="../../assets/images/twitter.png" style="width: 55px;height: 30px;">
-                                <img src="../../assets/images/whatsapp.png" style="width: 55px;height: 30px;">
-                               </div>
-                       
-                  </div>
-            </div>
-        </div>
-    
-        <div class="col-md-4">
-                <div class="card" style="background-color: #EDF5FC;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 80%;margin: 0 auto;padding: 0px !important;margin-top: 10%;border-radius: 10px;">
-                    <img  src="../../assets/images/serachpageimg.png" style="padding: 2%;" >
-                    <div class="card-body">
-                     
-                                                
-                        <h4 style="text-align: center;">The joy and satisfaction of
-                            helping a child in need</h4>
-
-
-                        <a style="color: black;display: flex;justify-content: center;text-decoration: underline;" class="mt-3">Read More</a>
-
-                        <div style="display: flex;justify-content: center;margin-top: 10%;">
-                          <button style="background-color: #FFB200;border-radius: 50px;border: none;padding: 3%;width: 80%;">Make a donation  <img src="../../assets/images/arrow_right.png" style="width: 30px;float: right;"></button>
-                         
-                        </div>
-
-
-                       <div class="row">
-
-                        <div class="col-md-6" style="display: flex;padding: 0px;margin-top: 10%;justify-content: center;">
-                          <img src="../../assets/images/clock.png" style="width: 20px;height: 20px;">&nbsp;
-                          <p style="font-size: 12px;">2 months left</p>
-                        </div>
-
-                        <div class="col-md-6" style="display: flex;padding: 0px;margin-top: 10%;justify-content: center;">
-                          <img src="../../assets/images/support.png" style="width: 20px;height: 20px;">&nbsp;
-                          <p style="font-size: 12px;">25 Supporters</p>
-                        </div>
-
-                       </div>
-
-
-
-                       <div class="row" style="display: flex;justify-content: center;margin-top: 2%;">
-                        <img src="../../assets/images/twitter.png" style="width: 55px;height: 30px;">
-                        <img src="../../assets/images/twitter.png" style="width: 55px;height: 30px;">
-                        <img src="../../assets/images/twitter.png" style="width: 55px;height: 30px;">
-                        <img src="../../assets/images/twitter.png" style="width: 55px;height: 30px;">
-                        <img src="../../assets/images/whatsapp.png" style="width: 55px;height: 30px;">
-                       </div>
-                       
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p style="color: white;text-align: center;">$6,373</p>
                     </div>
+                    <div class="col-md-6">
+                     <p style="color: white;text-align: center;"> $8,000 Goal</p>
+                    </div>
+                  </div>
+                 
+
+              </div>
+              
+              
+              
+              <div class="card-body">
+               
+
+                                         
+                  <h4 style="text-align: center;">The joy and satisfaction of
+                      helping a child in need</h4>
+
+
+                  <a style="color: black;display: flex;justify-content: center;text-decoration: underline;" class="mt-3" href="storydetail">Read More</a>
+
+                  <div style="display: flex;justify-content: center;margin-top: 10%;">
+                    <button style="background-color: #FFB200;border-radius: 50px;border: none;padding: 3%;width: 80%;">Make a donation  <img src="../../assets/images/arrow_right.png" style="width: 30px;float: right;"></button>
+                   
+                  </div>
+
+
+                 <div class="row">
+
+                  <div class="col-md-6" style="display: flex;padding: 0px;margin-top: 10%;justify-content: center;">
+                    <img src="../../assets/images/clock.png" style="width: 20px;height: 20px;">&nbsp;
+                    <p style="font-size: 12px;">2 months left</p>
+                  </div>
+
+                  <div class="col-md-6" style="display: flex;padding: 0px;margin-top: 10%;justify-content: center;">
+                    <img src="../../assets/images/support.png" style="width: 20px;height: 20px;">&nbsp;
+                    <p style="font-size: 12px;">25 Supporters</p>
+                  </div>
+
+                 </div>
+
+
+
+                 <div class="row" style="display: flex;justify-content: center;margin-top: 2%;">
+                  <img src="../../assets/images/instagram.png" style="width: 55px;height: 30px;">
+                  <img src="../../assets/images/facebook.png" style="width: 55px;height: 30px;">
+                  <img src="../../assets/images/youtube.png" style="width: 55px;height: 30px;">
+                  <img src="../../assets/images/twitter.png" style="width: 55px;height: 30px;">
+                  <img src="../../assets/images/whatsapp.png" style="width: 55px;height: 30px;">
+                 </div>
+                 
+              </div>
             </div>
-        </div>
+      </div>
+    
+      <div class="col-md-4"  >
+        <div class="card" style=" background-color: #EDF5FC; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 80%;margin: 0 auto;padding: 0px !important;margin-top: 10%;border-radius: 10px;">
+            <img  src="../../assets/images/serachpageimg.png" style="padding-left: 2%;padding-right: 2%;padding-top: 2%;" >
+            
+            <div style="background-color: #063F83;    margin-left: 2%;margin-right: 2%;">
+
+              <div style="display: flex;justify-content: space-between;padding-top: 3%;">
+
+                <div style="    height: 30px; background-color: white;border-radius: 0px 50px 50px 0px;width: 100px;"><p >Education</p></div>
+
+                <span style="width: 100px;display: flex;justify-content: end;margin-right: 4%;">
+                  <img src="../../assets/images/location.png" style=" height: 20px; margin-top: 2%;">
+                  <p style="color: white;">Japan</p>
+                </span>
+              </div>
+
+               
+             
+                <input type="range" min="0" max="50" value="0" id="range2" class="range-input" style="width: 95%;margin-left: 2%;margin-right: 2%;"/> 
+
+                <div class="row">
+                  <div class="col-md-6">
+                    <p style="color: white;text-align: center;">$6,373</p>
+                  </div>
+                  <div class="col-md-6">
+                   <p style="color: white;text-align: center;"> $8,000 Goal</p>
+                  </div>
+                </div>
+               
+
+            </div>
+            
+            
+            
+            <div class="card-body">
+             
+
+                                       
+                <h4 style="text-align: center;">The joy and satisfaction of
+                    helping a child in need</h4>
+
+
+                <a style="color: black;display: flex;justify-content: center;text-decoration: underline;" class="mt-3" href="storydetail">Read More</a>
+
+                <div style="display: flex;justify-content: center;margin-top: 10%;">
+                  <button style="background-color: #FFB200;border-radius: 50px;border: none;padding: 3%;width: 80%;">Make a donation  <img src="../../assets/images/arrow_right.png" style="width: 30px;float: right;"></button>
+                 
+                </div>
+
+
+               <div class="row">
+
+                <div class="col-md-6" style="display: flex;padding: 0px;margin-top: 10%;justify-content: center;">
+                  <img src="../../assets/images/clock.png" style="width: 20px;height: 20px;">&nbsp;
+                  <p style="font-size: 12px;">2 months left</p>
+                </div>
+
+                <div class="col-md-6" style="display: flex;padding: 0px;margin-top: 10%;justify-content: center;">
+                  <img src="../../assets/images/support.png" style="width: 20px;height: 20px;">&nbsp;
+                  <p style="font-size: 12px;">25 Supporters</p>
+                </div>
+
+               </div>
+
+
+
+               <div class="row" style="display: flex;justify-content: center;margin-top: 2%;">
+                <img src="../../assets/images/instagram.png" style="width: 55px;height: 30px;">
+                  <img src="../../assets/images/facebook.png" style="width: 55px;height: 30px;">
+                  <img src="../../assets/images/youtube.png" style="width: 55px;height: 30px;">
+                  <img src="../../assets/images/twitter.png" style="width: 55px;height: 30px;">
+                  <img src="../../assets/images/whatsapp.png" style="width: 55px;height: 30px;">
+               </div>
+               
+            </div>
+          </div>
+    </div>
         
     </div>
 

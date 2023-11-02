@@ -9,6 +9,7 @@ import { ContactComponent } from './contact/contact.component';
 import { DonorSignupComponent } from './donor-signup/donor-signup.component';
 import { StorydetailComponent } from './storydetail/storydetail.component';
 import { RegstoryComponent } from './regstory/regstory.component';
+import { BankdetailsComponent } from './bankdetails/bankdetails.component';
 
 const routes: Routes = [
   {
@@ -46,6 +47,10 @@ const routes: Routes = [
   {
     path:'regstory',
     component:RegstoryComponent
+  },
+  {
+    path:'bankdetails',
+    component:BankdetailsComponent
   }
 ];
 
