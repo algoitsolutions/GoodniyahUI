@@ -10,6 +10,7 @@ import { DonorSignupComponent } from './donor-signup/donor-signup.component';
 import { StorydetailComponent } from './storydetail/storydetail.component';
 import { RegstoryComponent } from './regstory/regstory.component';
 import { BankdetailsComponent } from './bankdetails/bankdetails.component';
+import { CountrydetailsComponent } from './countrydetails/countrydetails.component';
 
 const routes: Routes = [
   {
@@ -51,6 +52,10 @@ const routes: Routes = [
   {
     path:'bankdetails',
     component:BankdetailsComponent
+  },
+  {
+    path:'countrydetails',
+    component:CountrydetailsComponent
   }
 ];
 

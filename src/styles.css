@@ -15,12 +15,12 @@
 
 
 @font-face{
-    font-family: PopinsRegular;
+    font-family: PoppinsRegular;
     src: url('../src/fonts/Poppins-Regular.ttf');
 }
 
 @font-face{
-    font-family: PopinsSemiBold;
+    font-family: PoppinsSemiBold;
     src: url('../src/fonts/Poppins-SemiBold.ttf')
 }
 

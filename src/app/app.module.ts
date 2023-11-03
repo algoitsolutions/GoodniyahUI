@@ -14,6 +14,8 @@ import { DonorSignupComponent } from './donor-signup/donor-signup.component';
 import { StorydetailComponent } from './storydetail/storydetail.component';
 import { RegstoryComponent } from './regstory/regstory.component';
 import { BankdetailsComponent } from './bankdetails/bankdetails.component';
+import { CountrydetailsComponent } from './countrydetails/countrydetails.component';
+import { NgSelectModule } from '@ng-select/ng-select';
 
 @NgModule({
   declarations: [
@@ -28,11 +30,13 @@ import { BankdetailsComponent } from './bankdetails/bankdetails.component';
     DonorSignupComponent,
     StorydetailComponent,
     RegstoryComponent,
-    BankdetailsComponent
+    BankdetailsComponent,
+    CountrydetailsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]
