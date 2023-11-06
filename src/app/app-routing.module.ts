@@ -11,6 +11,7 @@ import { StorydetailComponent } from './storydetail/storydetail.component';
 import { RegstoryComponent } from './regstory/regstory.component';
 import { BankdetailsComponent } from './bankdetails/bankdetails.component';
 import { CountrydetailsComponent } from './countrydetails/countrydetails.component';
+import { FooterComponent } from './footer/footer.component';
 
 const routes: Routes = [
   {
@@ -56,6 +57,10 @@ const routes: Routes = [
   {
     path:'countrydetails',
     component:CountrydetailsComponent
+  },
+  {
+    path:'footer',
+    component:FooterComponent
   }
 ];
 

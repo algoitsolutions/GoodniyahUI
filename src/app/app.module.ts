@@ -16,6 +16,7 @@ import { RegstoryComponent } from './regstory/regstory.component';
 import { BankdetailsComponent } from './bankdetails/bankdetails.component';
 import { CountrydetailsComponent } from './countrydetails/countrydetails.component';
 import { NgSelectModule } from '@ng-select/ng-select';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { NgSelectModule } from '@ng-select/ng-select';
     StorydetailComponent,
     RegstoryComponent,
     BankdetailsComponent,
-    CountrydetailsComponent
+    CountrydetailsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

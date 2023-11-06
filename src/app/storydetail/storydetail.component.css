@@ -1,0 +1,13 @@
+.green {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.red {
+    width: 150px; 
+    background-color: #FFB200;
+    border-radius: 50px;
+    border: none;
+    padding: 2%;
+}
