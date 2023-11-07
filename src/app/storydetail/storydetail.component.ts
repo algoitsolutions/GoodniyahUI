@@ -47,6 +47,7 @@ export class StorydetailComponent {
 
   photos() 
   {
+
     this.toggle = !this.toggle;
     this.status = this.toggle ? 'Enable' : 'Disable';
 

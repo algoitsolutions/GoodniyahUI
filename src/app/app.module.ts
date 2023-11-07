@@ -17,6 +17,10 @@ import { BankdetailsComponent } from './bankdetails/bankdetails.component';
 import { CountrydetailsComponent } from './countrydetails/countrydetails.component';
 import { NgSelectModule } from '@ng-select/ng-select';
 import { FooterComponent } from './footer/footer.component';
+import { EditOrgComponent } from './edit-org/edit-org.component';
+import { AddstoryComponent } from './addstory/addstory.component';
+import { EditstoryComponent } from './editstory/editstory.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +37,11 @@ import { FooterComponent } from './footer/footer.component';
     RegstoryComponent,
     BankdetailsComponent,
     CountrydetailsComponent,
-    FooterComponent
+    FooterComponent,
+    EditOrgComponent,
+    AddstoryComponent,
+    EditstoryComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
