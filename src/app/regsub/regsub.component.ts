@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-regsub',
@@ -7,4 +8,14 @@ import { Component } from '@angular/core';
 })
 export class RegsubComponent {
 
+
+  constructor(private router:Router)
+  {
+    
+  }
+
+  charity()
+  {
+    this.router.navigateByUrl('/signup1');
+  }
 }

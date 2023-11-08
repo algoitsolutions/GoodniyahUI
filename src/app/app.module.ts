@@ -21,6 +21,9 @@ import { EditOrgComponent } from './edit-org/edit-org.component';
 import { AddstoryComponent } from './addstory/addstory.component';
 import { EditstoryComponent } from './editstory/editstory.component';
 import { HeaderComponent } from './header/header.component';
+import { SignupComponent } from './signup/signup.component';
+import { Signuppage1Component } from './signuppage1/signuppage1.component';
+import { Signuppage2Component } from './signuppage2/signuppage2.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +44,10 @@ import { HeaderComponent } from './header/header.component';
     EditOrgComponent,
     AddstoryComponent,
     EditstoryComponent,
-    HeaderComponent
+    HeaderComponent,
+    SignupComponent,
+    Signuppage1Component,
+    Signuppage2Component
   ],
   imports: [
     BrowserModule,

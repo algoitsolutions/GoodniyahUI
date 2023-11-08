@@ -16,6 +16,9 @@ import { EditOrgComponent } from './edit-org/edit-org.component';
 import { AddstoryComponent } from './addstory/addstory.component';
 import { EditstoryComponent } from './editstory/editstory.component';
 import { HeaderComponent } from './header/header.component';
+import { SignupComponent } from './signup/signup.component';
+import { Signuppage1Component } from './signuppage1/signuppage1.component';
+import { Signuppage2Component } from './signuppage2/signuppage2.component';
 
 const routes: Routes = [
   {
@@ -81,6 +84,18 @@ const routes: Routes = [
   {
     path:'header',
     component:HeaderComponent
+  },
+  {
+    path:'signup',
+    component:SignupComponent
+  },
+  {
+    path:'signup1',
+    component:Signuppage1Component
+  },
+  {
+    path:'signup2',
+    component:Signuppage2Component
   }
 ];
 
