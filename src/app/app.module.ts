@@ -24,6 +24,8 @@ import { HeaderComponent } from './header/header.component';
 import { SignupComponent } from './signup/signup.component';
 import { Signuppage1Component } from './signuppage1/signuppage1.component';
 import { Signuppage2Component } from './signuppage2/signuppage2.component';
+import { OrgprofileComponent } from './orgprofile/orgprofile.component';
+import { OrganisationdetailsComponent } from './organisationdetails/organisationdetails.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +49,9 @@ import { Signuppage2Component } from './signuppage2/signuppage2.component';
     HeaderComponent,
     SignupComponent,
     Signuppage1Component,
-    Signuppage2Component
+    Signuppage2Component,
+    OrgprofileComponent,
+    OrganisationdetailsComponent
   ],
   imports: [
     BrowserModule,

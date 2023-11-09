@@ -19,6 +19,8 @@ import { HeaderComponent } from './header/header.component';
 import { SignupComponent } from './signup/signup.component';
 import { Signuppage1Component } from './signuppage1/signuppage1.component';
 import { Signuppage2Component } from './signuppage2/signuppage2.component';
+import { OrgprofileComponent } from './orgprofile/orgprofile.component';
+import { OrganisationdetailsComponent } from './organisationdetails/organisationdetails.component';
 
 const routes: Routes = [
   {
@@ -96,6 +98,14 @@ const routes: Routes = [
   {
     path:'signup2',
     component:Signuppage2Component
+  },
+  {
+    path:'orgprofile',
+    component:OrgprofileComponent
+  },
+  {
+    path:'organisationdetails',
+    component:OrganisationdetailsComponent
   }
 ];
 
