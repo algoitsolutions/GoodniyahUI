@@ -5,3 +5,42 @@
 
 
 
+.recentline{
+  display: flex;
+  margin: 0 auto;  
+  width: 150px;
+}
+
+.recenttext{
+  color: white;
+  font-family: 'CaveatRegular';
+  text-align: center;
+  font-size: 40px;
+}
+
+.background{
+  height: 150vh; 
+  background-image: url(../../assets/images/innerpage.png);
+}
+
+.recentmaindiv{
+  margin-top: -200px;
+}
+
+.cardsrow{
+  margin-bottom: 5%;
+  margin-top: -20%;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+  .background{
+    height: 100vh;
+  }
+  
+  .cardsrow{
+    margin-bottom: 5%;
+    margin-top: -75%;
+  }
+}

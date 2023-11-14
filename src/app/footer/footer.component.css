@@ -1,4 +1,105 @@
 #mainrow{
     background-color: #011365;
+    padding-top: 3%;
+    padding-bottom: 2%;
 
+}
+
+.mainhead{
+    color: white;
+    font-size: 25px;
+    font-family: 'PoppinsMeidum';
+}
+
+.subhead{
+    font-family: 'PoppinsMeidum';
+    color: white;
+    font-size: 18px;
+}
+
+.location{
+    color: #FFB200;
+    font-family: 'PoppinsMeidum';
+}
+
+.call{
+    margin-top: 100%;
+}
+
+.location{
+    margin-top: 200%;
+}
+
+.copyright{
+    color: white;
+    float: right;
+}
+
+.socialdiv{
+    background-color: #F87F06;
+    padding: 1%;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+
+    .socialcol{
+        display: flex;
+        justify-content: center;
+    }
+   
+
+    .logo{
+        display: flex;
+        margin: 0 auto;
+    }
+    .call{
+        margin-top: 0%;
+    }
+
+    .location{
+
+        margin-top: 0%;
+        text-align: center;
+    }
+
+    .mainhead{
+        text-align: center;
+    }
+
+    .subhead{
+        text-align: center;
+    }
+
+    .call
+    {
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .locationimage{
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .email{
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .locationdetails{
+        text-align: center;
+    }
+
+
+    .inputstyle{
+        display: flex;
+        justify-content: center;
+    }
+
+    .copyright{
+        text-align: center;
+        float: none;
+    }
 }

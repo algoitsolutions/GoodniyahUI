@@ -4,37 +4,45 @@
 
 
     <div class="row">
-        <div class="col-md-8">
 
-            <div style="border: none;border-radius: 50px;background-color: #063F83;display: flex;justify-content: space-between;padding: 1%;">
-
-                <p style="color: white;font-family: PoppinsRegular;">Your recent fundraisers</p>
-
-                <button style="border: none;background-color: #FFB200;border-radius: 50px;" (click)="addstory()">Start another fundraiser &nbsp; &nbsp;  <img src="../../assets/images/greaterarrow2.png"> </button>
-
+        <div class="col-md-1"></div>
+        <div class="col-md-7 " style="margin-top: 5%;">
+           
+            <div class="fundraisediv">
+                <p class="fundraisetext">Your recent fundraisers</p>
+                <button class="fundraisebtn" (click)="addstory()">Start another fundraiser &nbsp; &nbsp;  <img src="../../assets/images/greaterarrow2.png" class="arrow"> </button>
             </div>
 
 
+            <div style="margin-left: 5%;margin-top: 5%; display: flex;">
 
+                <div class="card" style="background-color: #FFC700;width: 210px;border:  none;border-radius: 10px;">
+                    <img src="../../assets/images/storyimage.png" style="width: 200px;position: relative;">
 
-            <div style="margin-left: 5%;margin-top: 5%;">
-                <div class="card" style="background-color: #FFC700;width: 210px;border: none;border-radius: 10px;">
-                    <img src="../../assets/images/storyimage.png" style="width: 200px;">
+                    <p style="position: absolute;color: white;font-family: PoppinsRegular;padding-left: 3%;padding-right: 3%;    bottom: 0px;">
+                    The joy and satisfaction of helping a child in need</p>
                 </div>
+
+
+   
+
+
             </div>
 
         </div>
-        <div class="col-md-4" style="border: 1px solid red;">
+
+
+        <div class="col-md-3" >
 
             <div class="card" style="box-shadow: 18px 22px 47px -38px rgba(29, 113, 184, 0.38),
-            -1px -1px 47px -15px rgba(29, 113, 184, 0.27);border-radius: 20px;border: none; background-image: url(../../assets/images/vector1.png);background-repeat: no-repeat;background-position: -5px 400px;z-index: 999999;background-size: 100px 100px;            margin: 0 auto;margin-top: 7%;margin-bottom: 7%; height: 500px;">
+            -1px -1px 47px -15px rgba(29, 113, 184, 0.27);border-radius: 20px;border: none; background-image: url(../../assets/images/vector1.png);background-repeat: no-repeat;background-position: -5px 440px;z-index: 999999;background-size: 100px 100px;            margin: 0 auto;margin-top: 7%;margin-bottom: 7%; height: 550px;">
 
-                <img src="../../assets/images/orgimage.png" style="width: 200px;margin: 0 auto;">
+                <img src="../../assets/images/orgimage.png" style="width: 200px;margin: 0 auto;position: relative;" class="mt-5">
 
 
-                <img src="../../assets/images/editpen.png" style="width: 30px;"  (click)="editorg()">
+                <img src="../../assets/images/editpen.png" style="width: 30px;position: absolute;left: 210px;top:260px"  (click)="editorg()">
 
-              <span style="display: flex;justify-content: center;">
+              <span style="display: flex;justify-content: center;" class="mt-2">
                 <p>Algo</p>
                 <img src="../../assets/images/verified.png" style="width: 20px;height: 20px;" >
               </span>
@@ -44,12 +52,12 @@
                 <p style="text-align: center;"> syam</p>
               </div>
 
-              <div style="margin-top: 2%; display: flex;">
-                <div class="col">
-                    <img src="../../assets/images/date.png"> 26/08/2023
-                </div>
-                <div class="col">
-                    <img src="../../assets/images/clock_.png"> 22349000
+              <div style="margin-top: 2%; display: flex;   margin-left: 5%;margin-right: 5%; ">
+                <div class="col" style="border: 1px solid #011986;border-radius: 50px;font-size: 14px;">
+                    <img src="../../assets/images/date.png" style="width: 30px;"> 26/08/2023
+                </div> &nbsp;&nbsp;
+                <div class="col" style="border: 1px solid #011986;border-radius: 50px;font-size: 14px;">
+                    <img src="../../assets/images/clock_.png"  style="width: 30px;"> 22349000
                 </div>
               </div>
 
@@ -57,6 +65,8 @@
 
 
         </div>
+
+        <div class="col-md-1"></div>
     </div>
 
     <app-footer></app-footer>

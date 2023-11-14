@@ -6,3 +6,32 @@
     font-family: 'CaveatRegular';
     font-size: 30px;
 }
+
+
+.card{ 
+    box-shadow: 18px 22px 47px -38px rgba(29, 113, 184, 0.38),
+    -1px -1px 47px -15px rgba(29, 113, 184, 0.27);
+    border-radius: 20px; 
+    background-image: url(../../assets/images/vector1.png);
+    background-repeat: no-repeat;
+    background-position: -5px 350px;
+    z-index: 999999;
+    background-size: 100px 100px;               
+    width: 30rem;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%; 
+    height: 500px;
+}
+
+.otpimage{
+    width: 800px;
+    height: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .card{
+        width: auto;
+    }
+}

@@ -6,3 +6,91 @@
 input{
     padding-left: 10px;
 }
+
+/* .buttondiv{
+    background-color: #011986;    
+    display: flex;
+    width: 40%; 
+    border-radius: 50px;
+    justify-content: space-around;
+} */
+
+
+
+.createtext{
+    font-family: 'PoppinsSemiBold';
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.buttontext{
+    color: white;
+    font-family: 'PoppinsRegular';
+    font-size: 18px;
+}
+
+.loginbtn{
+    background-color: #FFB200;
+    border: none;
+    border-radius: 50px;
+    width: 100px;
+    height: 30px;
+}
+
+.text1{
+    font-family: 'PoppinsRegular';
+    font-size: 18px;
+}
+
+
+.loginrow{
+    display: flex; 
+    justify-content: end;
+}
+
+
+.registerbtn{
+    padding: 1%; 
+    margin-top: 3%;
+    border: none;
+    border-radius: 50px;
+    background-color: #FFB200;
+    width: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+
+    #lastname{
+        margin-top: 3%;
+    }
+
+    .registerbtn{
+        width: 100px;
+    }
+
+    .text1{
+        margin-top: 5%;
+    }
+    .buttontext{
+        padding: 2%;
+    }
+
+
+    .createtext{
+        font-size: 22px;
+    }
+    .buttondiv{
+        width: 100%;
+    }
+
+    .lastname{
+        margin-top: 3%;
+    }
+}
+
+

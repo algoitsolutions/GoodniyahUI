@@ -1,0 +1,49 @@
+.fundraisediv{
+    border: none;
+    border-radius: 50px;
+    background-color: #063F83;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.fundraisetext{
+    color: white;
+    font-family: PoppinsRegular;
+    margin-top: 1.5%;
+    font-size: 20px;
+    margin-left: 2%;
+}
+
+.fundraisebtn{
+    border: none;
+    background-color: #FFB200;
+    border-radius: 50px;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+    .fundraisediv{
+       display: inline-table;
+       width: 100%;
+    }
+
+    .fundraisetext{
+       text-align: center;
+    }
+
+    .fundraisebtn
+    {
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 3%;
+    }
+
+    .arrow{
+        margin-top: 3%;
+    }
+}
