@@ -2,3 +2,82 @@
     color: white;
 }
 
+
+.card{
+    padding-bottom: 5%;  
+    margin-bottom: 5%;  
+    margin-top: 2%;  
+    width: 80%;  
+    box-shadow: 18px 22px 47px -38px rgba(29, 113, 184, 0.38),
+        -1px -1px 47px -15px rgba(29, 113, 184, 0.27);
+    border-radius: 10px;
+    border: none;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.ngcountry{
+    background-color: #011986;
+    border-radius: 50px;
+    width: 50%;
+    padding: 2%;
+}
+
+.ngzip{
+    background-color: #011986;
+    border-radius: 50px;
+    width: 50%;
+    padding: 2%;
+}
+
+.categorybtn{
+    width: 80%;
+    border-radius: 50px;
+    border: 1px solid #011986;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+
+.pincodetext{
+    color: red;
+    text-align: right;
+    padding-right: 15%;
+    padding-top: 1%; 
+    font-family: 'PoppinsRegular';
+}
+
+.categorytext{
+    color: red;
+    margin-top: 3%;
+    margin-left: 1%; 
+    font-family: 'PoppinsRegular';
+}
+
+@media only screen and (max-width: 600px) {
+
+    .pincodetext{
+        text-align: center;
+        padding-top: 2%;
+    }
+
+    .categorytext{
+        text-align: center;
+    }
+
+ .ngcountry{
+    width: 80%;
+ }
+
+ .ngzip{
+    width: 80%;
+    margin-top: 3%;
+ }
+
+ .categorybtn{
+    margin-top: 4%;
+    width: 50%;
+ }
+
+}

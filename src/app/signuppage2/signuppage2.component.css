@@ -1,0 +1,39 @@
+
+.ngcountry{
+    border-radius: 100px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #011986;
+    padding: 1%;
+}
+
+.ngcity{
+    border-radius: 100px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #011986;
+    padding: 1%;
+}
+
+.ngsocialmedia{
+    border-radius: 100px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #011986;
+    padding: 1%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .ngcountry{
+        padding: 2%;
+    }
+
+    .ngcity{
+        padding: 2%;
+    }
+
+    .ngsocialmedia{
+        padding: 2%;
+    }
+}

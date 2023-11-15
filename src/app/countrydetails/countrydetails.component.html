@@ -21,18 +21,17 @@
         <p  style="margin-left: 5%;font-family: PoppinsRegular;">We use your location to determine your currency.</p>
 
 
-        <div class="card" style="padding-bottom: 5%;  margin-bottom: 5%;  margin-top: 2%;  width: 80%;  box-shadow: 18px 22px 47px -38px rgba(29, 113, 184, 0.38),
-        -1px -1px 47px -15px rgba(29, 113, 184, 0.27);border-radius: 10px;border: none;margin-left: 10%;margin-right: 10%;">
+        <div class="card" >
 
 
         <div class="row" style="margin-top: 5%;">
             <div class="col-md-6" style="display: flex;justify-content: center;">
-                <ng-select style="background-color: #011986;border-radius: 50px;width: 50%;padding: 2%;"   placeholder="Country"></ng-select>
+                <ng-select class="ngcountry"   placeholder="Country"></ng-select>
             </div>
             <div class="col-md-6" style="display: flex;justify-content: center;">
-                <ng-select style="background-color: #011986;border-radius: 50px;width: 50%;padding: 2%;" placeholder="Zip Code"></ng-select>
+                <ng-select class="ngzip" placeholder="Zip Code"></ng-select>
             </div>
-            <p style="color: red;text-align: right;padding-right: 15%;padding-top: 1%; font-family: 'PoppinsRegular';">Please enter a valid pincode*</p>
+            <p  class="pincodetext">Please enter a valid pincode*</p>
             
         </div>
 
@@ -40,30 +39,30 @@
 
         <p style="text-align: center;margin-top: 5%;font-family: PoppinsRegular;">What best describes why you're fundraising?</p>
 
-        <div style="display: flex;">
+        <div style="display: flex;" class="row ">
             <div class="col-md-2">        
-                <button style="width: 80%;border-radius: 50px;border: 1px solid #011986;" [ngStyle]="{ 'background-color': isClicked ? '#011986' : 'white' }" (click)="toggleButton()">Animals</button>
+                <button class="categorybtn" [ngStyle]="{ 'background-color': isClicked ? '#011986' : 'white' }" (click)="toggleButton()">Animals</button>
             </div>
             <div class="col-md-2">        
-                <button style="width: 80%;border-radius: 50px;border: 1px solid #011986;" [ngStyle]="{ 'background-color': isClicked ? '#011986' : 'white' }" (click)="toggleButton()">Business</button>
+                <button class="categorybtn" [ngStyle]="{ 'background-color': isClicked ? '#011986' : 'white' }" (click)="toggleButton()">Business</button>
             </div>
             <div class="col-md-2">        
-                <button style="width: 80%;border-radius: 50px;border: 1px solid #011986;" [ngStyle]="{ 'background-color': isClicked ? '#011986' : 'white' }" (click)="toggleButton()">Community</button>
+                <button class="categorybtn" [ngStyle]="{ 'background-color': isClicked ? '#011986' : 'white' }" (click)="toggleButton()">Community</button>
             </div>
             <div class="col-md-2">        
-                <button style="width: 80%;border-radius: 50px;border: 1px solid #011986;" [ngStyle]="{ 'background-color': isClicked ? '#011986' : 'white' }" (click)="toggleButton()">Creative</button>
+                <button class="categorybtn" [ngStyle]="{ 'background-color': isClicked ? '#011986' : 'white' }" (click)="toggleButton()">Creative</button>
             </div>
             <div class="col-md-2">        
-                <button style="width: 80%;border-radius: 50px;border: 1px solid #011986;" [ngStyle]="{ 'background-color': isClicked ? '#011986' : 'white' }" (click)="toggleButton()">Education</button>
+                <button class="categorybtn" [ngStyle]="{ 'background-color': isClicked ? '#011986' : 'white' }" (click)="toggleButton()">Education</button>
             </div>
             <div class="col-md-2">        
-                <button style="width: 80%;border-radius: 50px;border: 1px solid #011986;" [ngStyle]="{ 'background-color': isClicked ? '#011986' : 'white' }" (click)="toggleButton()">Emergencies</button>
+                <button class="categorybtn" [ngStyle]="{ 'background-color': isClicked ? '#011986' : 'white' }" (click)="toggleButton()">Emergencies</button>
             </div>  
         </div> 
 
 
         <div>
-            <p style="color: red;margin-top: 3%;margin-left: 1%; font-family: 'PoppinsRegular';">Please select a category*</p>
+            <p class="categorytext">Please select a category*</p>
         </div>
 
 

@@ -1,0 +1,58 @@
+
+.logindiv{
+    background-color: #011986;    
+    display: flex;
+    width: 40%; 
+    border-radius: 50px;
+    justify-content: space-around;
+}
+
+.logintext{
+    color: white;
+    font-family: 'PoppinsRegular';
+    font-size: 18px;
+}
+
+.loginbtn{
+    background-color: #FFB200;
+    border: none;
+    border-radius: 50px;
+    width: 100px;
+    height: 30px;
+    font-family: 'PoppinsRegular';
+}
+
+.ngcountry{
+    border-radius: 100px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #011986;
+    padding: 5%;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .create{
+        margin-right: 5%;
+    }
+
+
+    .logindiv{
+        width: 100%;
+        display: grid;
+        padding-bottom: 2%;
+    }
+
+    .logintext{
+        text-align: center;
+    }
+
+    .loginbtn{
+        margin: 0 auto;
+    }
+
+    .ngcountry{
+        padding: 2%;
+    }
+}

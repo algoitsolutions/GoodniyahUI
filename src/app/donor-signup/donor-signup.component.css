@@ -30,6 +30,7 @@ input{
     color: white;
     font-family: 'PoppinsRegular';
     font-size: 18px;
+    padding-top: 2%;
 }
 
 .loginbtn{
@@ -38,6 +39,7 @@ input{
     border-radius: 50px;
     width: 100px;
     height: 30px;
+    margin-top: 2%;
 }
 
 .text1{
@@ -61,8 +63,26 @@ input{
     width: 200px;
 }
 
+.logindiv{
+    background-color: #011986; 
+    display: flex; 
+    width: 40%;  
+    border-radius: 50px;
+    justify-content: space-around;
+}
+
 @media only screen and (max-width: 600px) {
 
+
+    .loginbtn{
+        margin: 0 auto;
+    }
+    
+    .logindiv{
+        width: 100%;
+        display: grid;
+        padding-bottom: 2%;
+    }
 
 
     #lastname{
@@ -77,7 +97,9 @@ input{
         margin-top: 5%;
     }
     .buttontext{
-        padding: 2%;
+        /* padding: 2%; */
+        text-align: center;
+        padding-top: 2%;
     }
 
 
